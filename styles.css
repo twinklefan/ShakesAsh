@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+  }
+/* MAIN */
+html {
+  cursor: url('dino2.png'),default;
+}
+/* DIV STYLING */
+.titleDiv {
+  background-color: #071E3D;
+  height: 500px;
+  margin-top: 0!important;
+}
+.nextDiv {
+  background-color: #278EA5;
+  height: auto;
+  min-height: 500px;
+  margin-top: 0!important;
+  padding: 30px;
+}
+/* HOME PAGE DIVS */
+.HnextDiv {
+  background-color: #00ADB5;
+  height: auto;
+  min-height: 650px;
+  margin-top: 0!important;
+  padding: 30px;
+  float: none;
+  padding: 10px;
+}
+/* MAIN DIV TEXT STYLING */
+.Title {
+  font-size: 7rem;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 30%;
+  color: #21E6C1;
+  font-family: 'The-Girl-Next-Door';
+}
+.subTitle {
+  font-size: 3rem;
+  font-family: 'Aldrich';
+  color: #278EA5;
+  text-align: center;
+  position: relative;
+  top: 28%;
+}
+/* NEXTDIV TEXT STYLING */
+.miniTitle {
+  font-size: 3rem;
+  font-family: 'Aldrich';
+  color: #21E6C1;
+  margin-bottom: 0px;
+  text-align: center;
+  margin-top: 50px;
+}
+.MMTitle {
+  font-size: 1rem;
+  font-family: 'Aldrich';
+  color: #21E6C1;
+  margin-bottom: 0px;
+  text-align: center;
+  margin-top: 0px;
+}
+.miniText {
+  font-size: 1.8rem;
+  font-family: 'Molengo';
+  color: #85e9ed;
+  margin: 20px 50px;
+  display: block;
+  text-align: center;
+}
+.nameT {
+  color: #071E3D;
+}
+.MT2 {
+  max-width: 80%;
+}
+/* NAV BAR */
+.nav {
+  overflow: hidden;
+  position: relative;
+  background-color: #071E3D;
+}
+.nav a {
+  float: left;
+  color: #21E6C1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Aldrich';
+
+}
+.nav a:hover {
+  background-color: #278EA5;
+  color: #071E3D;
+}
+.nav a.active {
+  background-color: #21E6C1;
+  color: #071E3D;
+}
+/* COLUM PAGE LAYOUT */
+.column {
+  float: left;
+  text-align: center;
+  width: 33.33%;
+  /* border: 1px solid black; */
+}
+.row:after {
+  display: table;
+  clear: both;
+}
+/* SMALLER SCREEN */
+@media screen and (max-width: 985px) {
+  .navText {
+    display: none;
+  }
+  .Title {
+    font-size: 4rem;
+  }
+  .subTitle {
+    font-size: 2rem;
+  }
+  .titleDiv {
+    height: 300px;
+  }
+  .colum {
+    width: 100%;
+  }
+}
+
+/* BUTTONS */
+/* .button {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: inherit;
+  border: 2px solid #85e9ed;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 6px 8px;
+  width: 150px;
+  transition: all 0.5s;
+  margin: 0;
+  cursor: url('dino2.png'),default;
+}
+.button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 20px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+} */
