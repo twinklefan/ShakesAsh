@@ -1,6 +1,6 @@
-# Shakesash
+# ShakesAsh
 Shakes-Ash
 
-## THis is what happens when i leave for 10min...
+## This is what happens when i leave for 10min...
 
 The link to website is [https://twinklefan.github.io/ShakesAsh/index.html]
