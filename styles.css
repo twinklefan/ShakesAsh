@@ -26,6 +26,27 @@ html {
   margin-top: 0!important;
   padding: 30px;
 }
+header {
+  background-color: var(--a);
+  height: auto;
+  min-height: 100px;
+  margin-top: 0!important;
+  padding: 30px;
+}
+h2 {
+  font-family: 'The-Girl-Next-Door';
+  font-size: 2rem;
+  margin: 0 15px 10px 15px;
+  text-align: center;
+  display: inline;
+}
+h3 a {
+    text-decoration: none;
+    color: var(--c);
+}
+h3 a:active {
+  color: var(--d)
+}
 /* HOME PAGE DIVS */
 .HnextDiv {
   background-color: #00ADB5;
