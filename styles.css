@@ -33,18 +33,23 @@ header {
   margin-top: 0!important;
   padding: 30px;
 }
-h2 {
+#ft {
   font-family: 'The-Girl-Next-Door';
+  font-size: 3rem;
+  text-align: center:
+}
+.ftxt {
+  font-family: 'Aldrich';
   font-size: 2rem;
   margin: 0 15px 10px 15px;
   text-align: center;
   display: inline;
 }
-h3 a {
+.ftxt a {
     text-decoration: none;
     color: var(--c);
 }
-h3 a:active {
+.ftxt a:active {
   color: var(--d)
 }
 /* HOME PAGE DIVS */
