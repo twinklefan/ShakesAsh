@@ -26,7 +26,7 @@ html {
   margin-top: 0!important;
   padding: 30px;
 }
-header {
+footer {
   background-color: var(--a);
   height: auto;
   min-height: 100px;
@@ -37,6 +37,8 @@ header {
   font-family: 'The-Girl-Next-Door';
   font-size: 3rem;
   text-align: center:
+  color: var(--d);
+  color: var(--d)
 }
 .ftxt {
   font-family: 'Aldrich';
